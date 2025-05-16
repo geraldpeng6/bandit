@@ -104,6 +104,6 @@ ssh bandit7@bandit.labs.overthewire.org -p 2220
 
 ## 相关资源 🔗
 
-- [Linux find命令的35个实用示例](https://www.tecmint.com/35-practical-examples-of-linux-find-command/)
-- [Linux文件所有权和权限](https://www.linux.com/training-tutorials/understanding-linux-file-permissions/)
-- [Linux错误重定向](https://www.cyberciti.biz/faq/linux-redirect-error-output-to-null/)
+- [Linux_find命令详解](./resource/level_6/Linux_find命令详解.md)
+- [Linux文件所有权详解](./resource/level_7/Linux文件所有权详解.md)
+- [Linux错误重定向指南](./resource/level_7/Linux错误重定向指南.md)

@@ -125,6 +125,6 @@ ssh bandit15@bandit.labs.overthewire.org -p 2220
 
 ## 相关资源 🔗
 
-- [Netcat (nc) 命令详解](https://www.geeksforgeeks.org/nc-command-in-linux-with-examples/)
-- [Linux网络命令大全](https://www.tecmint.com/linux-networking-commands/)
-- [端口和套接字基础](https://www.digitalocean.com/community/tutorials/understanding-sockets)
+- [Netcat (nc) 命令详解](./resource/level_15/Netcat命令详解.md)
+- [SSL/TLS协议介绍](./resource/level_15/SSL_TLS协议介绍.md)
+- [OpenSSL工具使用指南](./resource/level_15/OpenSSL工具使用指南.md)

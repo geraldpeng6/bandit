@@ -103,5 +103,5 @@ ssh bandit2@bandit.labs.overthewire.org -p 2220
 ## 相关资源 🔗
 
 - [Google搜索"破折号文件名"](https://www.google.com/search?q=dashed+filename)
-- [高级Bash脚本指南 - 第3章 - 特殊字符](http://tldp.org/LDP/abs/html/special-chars.html)
-- [Linux命令行中的特殊字符](https://www.howtogeek.com/439199/15-special-characters-you-need-to-know-for-bash/)
+- [Bash脚本特殊字符指南](./resource/level_2/Bash脚本特殊字符指南.md)
+- [Linux特殊字符详解](./resource/level_2/Linux特殊字符详解.md)

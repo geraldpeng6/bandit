@@ -124,6 +124,6 @@ ssh bandit4@bandit.labs.overthewire.org -p 2220
 
 ## 相关资源 🔗
 
-- [Linux ls命令的15个基本示例](https://www.tecmint.com/15-basic-ls-command-examples-in-linux/)
-- [Linux隐藏文件和目录](https://www.cyberciti.biz/faq/linux-show-hidden-files-and-directories-command/)
-- [Linux文件系统导航基础](https://linuxjourney.com/lesson/navigating-the-filesystem)
+- [Linux ls命令基础教程](./resource/level_1/linux_ls命令基础教程.md)
+- [Linux隐藏文件和目录详解](./resource/level_4/Linux隐藏文件和目录详解.md)
+- [Linux文件系统导航基础](./resource/level_4/Linux文件系统导航基础.md)

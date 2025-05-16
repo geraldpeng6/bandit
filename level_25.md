@@ -209,6 +209,6 @@ ssh bandit25@bandit.labs.overthewire.org -p 2220
 
 ## 相关资源 🔗
 
-- [Bash循环结构详解](https://www.gnu.org/software/bash/manual/html_node/Looping-Constructs.html)
-- [Netcat (nc) 命令详解](https://www.geeksforgeeks.org/nc-command-in-linux-with-examples/)
-- [Linux文件I/O和重定向](https://www.tutorialspoint.com/unix/unix-io-redirections.htm)
+- [Bash循环结构详解](./resource/level_25/Bash循环结构详解.md)
+- [Netcat (nc) 命令详解](./resource/level_25/Netcat命令详解.md)
+- [Linux文件I/O和重定向](./resource/level_25/Linux文件IO和重定向.md)

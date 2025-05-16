@@ -148,7 +148,7 @@ ssh bandit23@bandit.labs.overthewire.org -p 2220
 
 ## 相关资源 🔗
 
-- [Bash变量详解](https://www.gnu.org/software/bash/manual/html_node/Shell-Parameters.html)
-- [Linux命令替换](https://www.gnu.org/software/bash/manual/html_node/Command-Substitution.html)
-- [MD5哈希算法](https://en.wikipedia.org/wiki/MD5)
-- [Linux管道和过滤命令](https://www.geeksforgeeks.org/piping-in-unix-or-linux/)
+- [Bash变量详解](./resource/level_23/Bash变量详解.md)
+- [Linux命令替换](./resource/level_23/Linux命令替换.md)
+- [MD5哈希算法](./resource/level_23/MD5哈希算法.md)
+- [Linux文件校验](./resource/level_23/Linux文件校验.md)

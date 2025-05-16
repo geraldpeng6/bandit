@@ -103,6 +103,6 @@ ssh bandit9@bandit.labs.overthewire.org -p 2220
 ## 相关资源 🔗
 
 - [如何找到存储在文件"data.txt"中的特定文本，并且它只出现一次](https://stackoverflow.com/questions/12782827/how-to-find-the-particular-text-stored-in-the-file-data-txt-and-it-occurs-only)
-- [Linux sort命令详解](https://www.geeksforgeeks.org/sort-command-linuxunix-examples/)
-- [Linux uniq命令详解](https://www.geeksforgeeks.org/uniq-command-in-linux-with-examples/)
-- [Linux管道操作详解](https://www.geeksforgeeks.org/piping-in-unix-or-linux/)
+- [Linux_sort命令详解](./resource/level_9/Linux_sort命令详解.md)
+- [Linux_uniq命令详解](./resource/level_9/Linux_uniq命令详解.md)
+- [Linux管道操作详解](./resource/level_9/Linux管道操作详解.md)

@@ -198,6 +198,6 @@ ssh -i /tmp/bandit16/sshkey17.private bandit17@localhost
 
 ## 相关资源 🔗
 
-- [Nmap端口扫描指南](https://nmap.org/book/man-port-scanning-basics.html)
-- [OpenSSL s_client命令详解](https://www.openssl.org/docs/man1.1.1/man1/openssl-s_client.html)
-- [SSH密钥认证详解](https://www.digitalocean.com/community/tutorials/ssh-essentials-working-with-ssh-servers-clients-and-keys)
+- [Nmap端口扫描指南](./resource/level_17/Nmap端口扫描指南.md)
+- [OpenSSL s_client命令详解](./resource/level_17/OpenSSL_s_client命令详解.md)
+- [SSH密钥认证详解](./resource/level_17/SSH密钥认证详解.md)

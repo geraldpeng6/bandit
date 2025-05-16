@@ -131,6 +131,6 @@ ssh bandit5@bandit.labs.overthewire.org -p 2220
 
 ## 相关资源 🔗
 
-- [Linux中的file命令示例](https://www.geeksforgeeks.org/file-command-in-linux-with-examples/)
-- [Linux通配符使用指南](https://www.linuxjournal.com/content/pattern-matching-bash)
-- [ASCII与二进制文件的区别](https://www.geeksforgeeks.org/difference-between-ascii-and-binary-files-in-c/)
+- [Linux_file命令详解](./resource/level_5/Linux_file命令详解.md)
+- [Linux通配符使用指南](./resource/level_5/Linux通配符使用指南.md)
+- [ASCII与二进制文件的区别](./resource/level_5/ASCII与二进制文件的区别.md)

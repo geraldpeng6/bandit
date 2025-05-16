@@ -193,6 +193,6 @@ ssh bandit30@bandit.labs.overthewire.org -p 2220
 
 ## 相关资源 🔗
 
-- [Git分支基础](https://git-scm.com/book/zh/v2/Git-分支-分支简介)
-- [Git远程分支](https://git-scm.com/book/zh/v2/Git-分支-远程分支)
-- [Git分支管理](https://git-scm.com/book/zh/v2/Git-分支-分支管理)
+- [Git分支基础](./resource/level_30/Git分支基础.md)
+- [Git远程分支](./resource/level_30/Git远程分支.md)
+- [Git分支管理](./resource/level_30/Git分支管理.md)

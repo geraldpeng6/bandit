@@ -143,7 +143,7 @@ index 3f7cee8..5c6457b 100644
 +++ b/README.md
 @@ -4,5 +4,5 @@ Some notes for level29 of bandit.
  ## credentials
- 
+
  - username: bandit29
 -- password: bbc96594b4e001778eee9975372716b2
 +- password: xxxxxxxxxx
@@ -185,6 +185,6 @@ ssh bandit29@bandit.labs.overthewire.org -p 2220
 
 ## 相关资源 🔗
 
-- [Git日志和历史](https://git-scm.com/book/zh/v2/Git-基础-查看提交历史)
-- [Git差异比较](https://git-scm.com/book/zh/v2/Git-基础-查看提交历史#_viewing_changes)
-- [从Git历史中删除敏感数据](https://docs.github.com/cn/github/authenticating-to-github/removing-sensitive-data-from-a-repository)
+- [Git日志和历史](./resource/level_29/Git日志和历史.md)
+- [Git差异比较](./resource/level_29/Git差异比较.md)
+- [从Git历史中删除敏感数据](./resource/level_29/从Git历史中删除敏感数据.md)

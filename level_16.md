@@ -115,6 +115,6 @@ ssh bandit16@bandit.labs.overthewire.org -p 2220
 
 ## 相关资源 🔗
 
-- [OpenSSL命令行工具详解](https://www.openssl.org/docs/man1.1.1/man1/openssl.html)
-- [SSL/TLS协议介绍](https://www.cloudflare.com/zh-cn/learning/ssl/what-is-ssl/)
-- [使用OpenSSL调试SSL/TLS连接](https://www.digitalocean.com/community/tutorials/openssl-essentials-working-with-ssl-certificates-private-keys-and-csrs)
+- [OpenSSL命令行工具详解](./resource/level_16/OpenSSL命令行工具详解.md)
+- [SSL/TLS协议介绍](./resource/level_16/SSL_TLS协议介绍.md)
+- [使用OpenSSL调试SSL/TLS连接](./resource/level_16/OpenSSL调试SSL_TLS连接.md)

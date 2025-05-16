@@ -137,6 +137,6 @@ ssh bandit20@bandit.labs.overthewire.org -p 2220
 
 ## 相关资源 🔗
 
-- [Linux文件权限详解](https://www.linux.com/training-tutorials/understanding-linux-file-permissions/)
-- [setuid、setgid和sticky bit详解](https://www.geeksforgeeks.org/setuid-setgid-and-sticky-bits-in-linux-file-permissions/)
-- [Linux安全最佳实践](https://www.cyberciti.biz/tips/linux-security.html)
+- [Linux文件权限详解](./resource/level_20/Linux文件权限详解.md)
+- [setuid、setgid和sticky bit详解](./resource/level_20/setuid_setgid和sticky_bit详解.md)
+- [Linux安全最佳实践](./resource/level_20/Linux安全最佳实践.md)

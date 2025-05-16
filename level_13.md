@@ -206,6 +206,6 @@ ssh bandit13@bandit.labs.overthewire.org -p 2220
 
 ## 相关资源 🔗
 
-- [十六进制转储 - 维基百科](https://zh.wikipedia.org/wiki/十六进制转储)
-- [Linux文件压缩和解压缩命令](https://www.tecmint.com/linux-compress-decompress-extract-files/)
-- [Linux file命令详解](https://www.geeksforgeeks.org/file-command-in-linux-with-examples/)
+- [十六进制转储详解](./resource/level_13/十六进制转储详解.md)
+- [Linux文件压缩和解压缩命令](./resource/level_13/Linux文件压缩和解压缩命令.md)
+- [Linux file命令详解](./resource/level_13/Linux_file命令详解.md)

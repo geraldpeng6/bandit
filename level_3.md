@@ -115,5 +115,5 @@ ssh bandit3@bandit.labs.overthewire.org -p 2220
 ## 相关资源 🔗
 
 - [Google搜索"文件名中的空格"](https://www.google.com/search?q=spaces+in+filename)
-- [Linux文件命名最佳实践](https://www.cyberciti.biz/tips/naming-convention-for-linux-unix-files.html)
-- [Bash引号和转义指南](https://www.gnu.org/software/bash/manual/html_node/Quoting.html)
+- [Linux文件命名最佳实践](./resource/level_3/Linux文件命名最佳实践.md)
+- [Bash引号和转义指南](./resource/level_3/Bash引号和转义指南.md)

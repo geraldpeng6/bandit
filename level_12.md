@@ -112,6 +112,6 @@ ssh bandit12@bandit.labs.overthewire.org -p 2220
 
 ## 相关资源 🔗
 
-- [ROT13 - 维基百科](https://zh.wikipedia.org/wiki/ROT13)
-- [Linux tr命令详解](https://www.geeksforgeeks.org/tr-command-in-unix-linux-with-examples/)
-- [在Linux命令行解码ROT13](https://exploitshit.wordpress.com/2015/04/25/decode-rot13-on-linux-command-line/)
+- [ROT13 - 维基百科](./resource/level_12/ROT13维基百科.md)
+- [Linux tr命令详解](./resource/level_12/Linux_tr命令详解.md)
+- [在Linux命令行解码ROT13](./resource/level_12/在Linux命令行解码ROT13.md)

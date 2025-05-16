@@ -130,6 +130,6 @@ ssh bandit19@bandit.labs.overthewire.org -p 2220
 
 ## 相关资源 🔗
 
-- [SSH命令行选项详解](https://www.ssh.com/ssh/command/)
-- [Bash启动文件详解](https://www.gnu.org/software/bash/manual/html_node/Bash-Startup-Files.html)
-- [Linux shell种类介绍](https://www.tecmint.com/different-types-of-linux-shells/)
+- [SSH命令行选项详解](./resource/level_19/SSH命令行选项详解.md)
+- [Bash启动文件详解](./resource/level_19/Bash启动文件详解.md)
+- [Linux shell种类介绍](./resource/level_19/Linux_shell种类介绍.md)

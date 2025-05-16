@@ -101,6 +101,6 @@ ssh bandit8@bandit.labs.overthewire.org -p 2220
 
 ## 相关资源 🔗
 
-- [如何使用grep在shell上搜索文件中的字符串](https://www.howtoforge.com/tutorial/linux-grep-command/)
-- [Linux grep命令详解](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
-- [grep命令的10个实用示例](https://www.tecmint.com/12-practical-examples-of-linux-grep-command/)
+- [Linux_grep命令详解](./resource/level_8/Linux_grep命令详解.md)
+- [Linux文本搜索基础](./resource/level_8/Linux文本搜索基础.md)
+- [Linux错误重定向指南](./resource/level_7/Linux错误重定向指南.md)

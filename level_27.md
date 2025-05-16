@@ -150,6 +150,6 @@ ssh bandit27@bandit.labs.overthewire.org -p 2220
 
 ## 相关资源 🔗
 
-- [Vi/Vim编辑器命令详解](https://www.tutorialspoint.com/vim/vim_commands.htm)
-- [Linux文件权限详解](https://www.linux.com/training-tutorials/understanding-linux-file-permissions/)
-- [setuid、setgid和sticky bit详解](https://www.geeksforgeeks.org/setuid-setgid-and-sticky-bits-in-linux-file-permissions/)
+- [Vi/Vim编辑器命令详解](./resource/level_26/Vi_Vim编辑器命令详解.md)
+- [Linux文件权限详解](./resource/level_24/Linux文件权限详解.md)
+- [setuid、setgid和sticky bit详解](./resource/level_27/setuid_setgid和sticky_bit详解.md)

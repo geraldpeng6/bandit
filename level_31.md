@@ -160,6 +160,6 @@ ssh bandit31@bandit.labs.overthewire.org -p 2220
 
 ## 相关资源 🔗
 
-- [Git标签基础](https://git-scm.com/book/zh/v2/Git-基础-打标签)
-- [Git对象模型](https://git-scm.com/book/zh/v2/Git-内部原理-Git-对象)
-- [Git标签最佳实践](https://www.atlassian.com/git/tutorials/inspecting-a-repository/git-tag)
+- [Git标签基础](./resource/level_31/Git标签基础.md)
+- [Git对象模型](./resource/level_31/Git对象模型.md)
+- [Git标签最佳实践](./resource/level_31/Git标签最佳实践.md)

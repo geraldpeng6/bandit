@@ -57,7 +57,7 @@ sh: 1: LS: not found
 如果成功，这应该会启动一个新的shell，绕过UPPERCASE SHELL的限制：
 
 ```
-$ 
+$
 ```
 
 现在我们有了一个普通的shell提示符，表明我们已经成功绕过了UPPERCASE SHELL。
@@ -162,6 +162,6 @@ If you have ideas for any new levels, please let us know!
 
 ## 相关资源 🔗
 
-- [Bash特殊变量](https://www.gnu.org/software/bash/manual/html_node/Special-Parameters.html)
-- [Linux用户和权限管理](https://www.linux.com/training-tutorials/understanding-linux-file-permissions/)
-- [Shell脚本安全最佳实践](https://www.cyberciti.biz/tips/shell-scripting-security.html)
+- [Bash特殊变量](./resource/level_33/Bash特殊变量.md)
+- [Linux用户和权限管理](./resource/level_33/Linux用户和权限管理.md)
+- [Shell脚本安全最佳实践](./resource/level_33/Shell脚本安全最佳实践.md)

@@ -113,6 +113,6 @@ ssh bandit11@bandit.labs.overthewire.org -p 2220
 
 ## 相关资源 🔗
 
-- [Base64 - 维基百科](https://zh.wikipedia.org/wiki/Base64)
-- [Linux base64命令详解](https://www.geeksforgeeks.org/base64-command-in-linux-with-examples/)
-- [Base64编码和解码原理](https://www.ruanyifeng.com/blog/2008/06/base64.html)
+- [Base64 - 维基百科](./resource/level_11/Base64维基百科.md)
+- [Linux base64命令详解](./resource/level_11/Linux_base64命令详解.md)
+- [Base64编码和解码原理](./resource/level_11/Base64编码和解码原理.md)

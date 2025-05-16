@@ -141,6 +141,6 @@ ssh bandit18@bandit.labs.overthewire.org -p 2220
 
 ## 相关资源 🔗
 
-- [Linux diff命令详解](https://www.geeksforgeeks.org/diff-command-linux-examples/)
-- [Linux文件比较工具](https://www.tecmint.com/best-linux-file-diff-tools-comparison/)
-- [vimdiff使用指南](https://www.tutorialspoint.com/vim/vim_diff.htm)
+- [Linux diff命令详解](./resource/level_18/Linux_diff命令详解.md)
+- [Linux文件比较工具](./resource/level_18/Linux文件比较工具.md)
+- [vimdiff使用指南](./resource/level_18/vimdiff使用指南.md)

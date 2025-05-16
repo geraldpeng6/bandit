@@ -60,7 +60,7 @@ Are you sure you want to continue connecting (yes/no)? yes
 Failed to add the host to the list of known hosts (/home/bandit27/.ssh/known_hosts).
 This is a OverTheWire game server. More information on http://www.overthewire.org/wargames
 
-bandit27-git@localhost's password: 
+bandit27-git@localhost's password:
 remote: Counting objects: 3, done.
 remote: Compressing objects: 100% (2/2), done.
 remote: Total 3 (delta 0), reused 0 (delta 0)
@@ -140,6 +140,6 @@ ssh bandit28@bandit.labs.overthewire.org -p 2220
 
 ## 相关资源 🔗
 
-- [Git基础教程](https://git-scm.com/book/zh/v2/起步-Git-基础)
-- [SSH协议详解](https://www.ssh.com/ssh/protocol/)
-- [Git与SSH配置](https://docs.github.com/cn/github/authenticating-to-github/connecting-to-github-with-ssh)
+- [Git基础教程](./resource/level_28/Git基础教程.md)
+- [SSH协议详解](./resource/level_28/SSH协议详解.md)
+- [Git与SSH配置](./resource/level_28/Git与SSH配置.md)

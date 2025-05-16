@@ -114,6 +114,6 @@ ssh bandit14@bandit.labs.overthewire.org -p 2220
 
 ## 相关资源 🔗
 
-- [SSH/OpenSSH/Keys](https://help.ubuntu.com/community/SSH/OpenSSH/Keys)
-- [使用SSH私钥登录Linux和macOS](https://support.rackspace.com/how-to/logging-in-with-an-ssh-private-key-on-linuxmac/)
-- [SSH密钥认证详解](https://www.digitalocean.com/community/tutorials/ssh-essentials-working-with-ssh-servers-clients-and-keys)
+- [SSH密钥认证详解](./resource/level_14/SSH密钥认证详解.md)
+- [使用SSH私钥登录Linux和macOS](./resource/level_14/使用SSH私钥登录Linux和macOS.md)
+- [SSH密钥认证工作原理](./resource/level_14/SSH密钥认证工作原理.md)

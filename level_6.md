@@ -145,6 +145,6 @@ ssh bandit6@bandit.labs.overthewire.org -p 2220
 
 ## 相关资源 🔗
 
-- [Linux find命令的35个实用示例](https://www.tecmint.com/35-practical-examples-of-linux-find-command/)
-- [Linux技巧：查找特定大小的所有文件](http://www.ducea.com/2008/02/12/linux-tips-find-all-files-of-a-particular-size/)
-- [Linux文件权限详解](https://www.linux.com/training-tutorials/understanding-linux-file-permissions/)
+- [Linux_find命令详解](./resource/level_6/Linux_find命令详解.md)
+- [查找特定大小的文件指南](./resource/level_6/查找特定大小的文件指南.md)
+- [Linux文件权限详解](./resource/level_6/Linux文件权限详解.md)

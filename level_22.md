@@ -144,6 +144,6 @@ ssh bandit22@bandit.labs.overthewire.org -p 2220
 
 ## 相关资源 🔗
 
-- [Linux Cron定时任务详解](https://www.geeksforgeeks.org/crontab-in-linux-with-examples/)
-- [Linux文件权限详解](https://www.linux.com/training-tutorials/understanding-linux-file-permissions/)
-- [Bash脚本编程指南](https://www.gnu.org/software/bash/manual/bash.html)
+- [Linux Cron定时任务详解](./resource/level_22/Linux_Cron定时任务详解.md)
+- [Linux文件权限详解](./resource/level_22/Linux文件权限详解.md)
+- [Bash脚本编程指南](./resource/level_22/Bash脚本编程指南.md)

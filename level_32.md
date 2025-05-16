@@ -153,14 +153,14 @@ Compressing objects: 100% (2/2), done.
 Writing objects: 100% (3/3), 321 bytes | 0 bytes/s, done.
 Total 3 (delta 0), reused 0 (delta 0)
 remote: ### Attempting to validate files... ####
-remote: 
+remote:
 remote: .oOo.oOo.oOo.oOo.oOo.oOo.oOo.oOo.oOo.oOo.
-remote: 
+remote:
 remote: Well done! Here is the password for the next level:
 remote: 56a9bf19c63d650ce78e6ec0354ee45e
-remote: 
+remote:
 remote: .oOo.oOo.oOo.oOo.oOo.oOo.oOo.oOo.oOo.oOo.
-remote: 
+remote:
 To ssh://localhost/home/bandit31-git/repo
  ! [remote rejected] master -> master (pre-receive hook declined)
 error: failed to push some refs to 'ssh://bandit31-git@localhost/home/bandit31-git/repo'
@@ -212,6 +212,6 @@ ssh bandit32@bandit.labs.overthewire.org -p 2220
 
 ## 相关资源 🔗
 
-- [Git基础 - 记录更新到仓库](https://git-scm.com/book/zh/v2/Git-基础-记录更新到仓库)
-- [Git工具 - 忽略文件](https://git-scm.com/book/zh/v2/Git-基础-记录更新到仓库#_ignoring)
-- [Git钩子](https://git-scm.com/book/zh/v2/自定义-Git-Git-钩子)
+- [Git基础 - 记录更新到仓库](./resource/level_32/Git基础-记录更新到仓库.md)
+- [Git工具 - 忽略文件](./resource/level_32/Git工具-忽略文件.md)
+- [Git钩子](./resource/level_32/Git钩子.md)

@@ -111,6 +111,6 @@ ssh bandit10@bandit.labs.overthewire.org -p 2220
 
 ## 相关资源 🔗
 
-- [Linux strings命令教程（5个示例）](https://www.howtoforge.com/linux-strings-command/)
-- [Linux中的二进制文件与文本文件](https://www.geeksforgeeks.org/difference-between-binary-and-text-files/)
-- [使用grep和正则表达式](https://www.digitalocean.com/community/tutorials/using-grep-regular-expressions-to-search-for-text-patterns-in-linux)
+- [Linux strings命令教程](./resource/level_10/Linux_strings命令教程.md)
+- [Linux中的二进制文件与文本文件](./resource/level_10/Linux中的二进制文件与文本文件.md)
+- [使用grep和正则表达式](./resource/level_10/使用grep和正则表达式.md)

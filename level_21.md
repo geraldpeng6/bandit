@@ -177,6 +177,6 @@ ssh bandit21@bandit.labs.overthewire.org -p 2220
 
 ## 相关资源 🔗
 
-- [Netcat (nc) 命令详解](https://www.geeksforgeeks.org/nc-command-in-linux-with-examples/)
-- [Linux后台任务管理](https://www.digitalocean.com/community/tutorials/how-to-use-bash-s-job-control-to-manage-foreground-and-background-processes)
-- [网络套接字编程基础](https://www.tutorialspoint.com/unix_sockets/what_is_socket.htm)
+- [Netcat (nc) 命令详解](./resource/level_21/Netcat命令详解.md)
+- [Linux后台任务管理](./resource/level_21/Linux后台任务管理.md)
+- [网络套接字编程基础](./resource/level_21/网络套接字编程基础.md)

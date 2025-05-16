@@ -115,12 +115,12 @@ ssh -i bandit26.sshkey bandit26@localhost
 如果终端窗口足够小，`more`命令会暂停并显示类似于以下的内容：
 
 ```
-  _                     _ _ _   ___   __  
- | |                   | (_) | |__ \ / /  
- | |__   __ _ _ __   __| |_| |_   ) / /_  
- | '_ \ / _` | '_ \ / _` | | __| / / '_ \ 
+  _                     _ _ _   ___   __
+ | |                   | (_) | |__ \ / /
+ | |__   __ _ _ __   __| |_| |_   ) / /_
+ | '_ \ / _` | '_ \ / _` | | __| / / '_ \
  | |_) | (_| | | | | (_| | | |_ / /| (_) |
- |_.__/ \__,_|_| |_|\__,_|_|\__|____\___/ 
+ |_.__/ \__,_|_| |_|\__,_|_|\__|____\___/
 ```
 
 此时，`more`命令处于暂停状态，等待用户输入。我们可以按`v`键进入`vi`编辑器。
@@ -202,6 +202,6 @@ bandit26
 
 ## 相关资源 🔗
 
-- [Linux用户和shell管理](https://www.digitalocean.com/community/tutorials/how-to-manage-users-and-groups-on-a-linux-server)
-- [Vi/Vim编辑器命令详解](https://www.tutorialspoint.com/vim/vim_commands.htm)
-- [Linux终端和环境变量](https://www.digitalocean.com/community/tutorials/how-to-read-and-set-environmental-and-shell-variables-on-a-linux-vps)
+- [Linux用户和shell管理](./resource/level_26/Linux用户和shell管理.md)
+- [Vi/Vim编辑器命令详解](./resource/level_26/Vi_Vim编辑器命令详解.md)
+- [Linux终端和环境变量](./resource/level_26/Linux终端和环境变量.md)

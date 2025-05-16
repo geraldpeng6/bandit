@@ -202,6 +202,6 @@ ssh bandit24@bandit.labs.overthewire.org -p 2220
 
 ## 相关资源 🔗
 
-- [Bash脚本编程指南](https://www.gnu.org/software/bash/manual/bash.html)
-- [Linux文件权限详解](https://www.linux.com/training-tutorials/understanding-linux-file-permissions/)
-- [Cron定时任务安全最佳实践](https://www.digitalocean.com/community/tutorials/how-to-use-cron-to-automate-tasks-on-a-vps)
+- [Bash脚本编程指南](./resource/level_24/Bash脚本编程指南.md)
+- [Linux文件权限详解](./resource/level_24/Linux文件权限详解.md)
+- [Cron定时任务安全最佳实践](./resource/level_24/Cron定时任务安全最佳实践.md)

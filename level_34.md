@@ -111,8 +111,8 @@ If you have ideas for any new levels, please let us know!
 
 ## 相关资源 🔗
 
-- [OverTheWire其他游戏](https://overthewire.org/wargames/)
-- [Linux命令行指南](https://linuxcommand.org/)
-- [CTF比赛资源](https://ctftime.org/)
-- [网络安全学习资源](https://www.cybrary.it/)
-- [Web安全学习资源](https://portswigger.net/web-security)
+- [OverTheWire其他游戏](./resource/level_34/OverTheWire其他游戏.md)
+- [Linux命令行指南](./resource/level_34/Linux命令行指南.md)
+- [CTF比赛资源](./resource/level_34/CTF比赛资源.md)
+- [网络安全学习资源](./resource/level_34/网络安全学习资源.md)
+- [Web安全学习资源](./resource/level_34/Web安全学习资源.md)
