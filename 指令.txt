@@ -1,0 +1,26 @@
+请为我创建一系列Markdown格式的教程文件，内容是关于OverTheWire的Bandit游戏（一个学习Linux命令行的实践游戏）的详细攻略。
+
+具体要求：
+1. 参考以下资源：
+   - 官方网站：https://overthewire.org/wargames/bandit/bandit10.html
+   - 攻略参考：https://medium.com/@lukmandenny/overthewire-wargames-bandit-walkthrough-0-34-3c6a52c5e436
+
+2. 每个关卡（Level）创建一个单独的Markdown文件，文件名格式为"level_X.md"（X为关卡数字）
+
+3. 内容要求：
+   - 使用中文编写，面向编程小白读者
+   - 加入适量emoji表情，使内容生动有趣
+   - 清晰的格式和结构，便于阅读理解
+   - 关键的Linux命令和技术术语同时提供中英文对照
+   - 为每个命令和操作提供详细、具体的示例
+   - 访问每个关卡中"helpful material"链接,并把对应文章详细总结,提取提到的知识点,结合到一起
+   - 详细说明每个关卡的目标、解题思路和具体操作步骤
+
+4. 每个Markdown文件的结构应包含：
+   - 关卡标题和目标
+   - 所需的Linux知识点介绍
+   - 详细的解题步骤
+   - 命令解释和示例
+   - 学习要点总结
+
+请从Bandit Level 0开始，逐个关卡创建教程文件。
