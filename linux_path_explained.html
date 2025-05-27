@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linux命令行路径详解</title>
+    <style>
+        body {
+            font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        h1 {
+            text-align: center;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            border-left: 5px solid #3498db;
+            padding-left: 15px;
+            margin-top: 40px;
+        }
+        .container {
+            background-color: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .example {
+            background-color: #f0f7fb;
+            border-left: 5px solid #3498db;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 5px 5px 0;
+        }
+        .warning {
+            background-color: #fff8e1;
+            border-left: 5px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 5px 5px 0;
+        }
+        .tip {
+            background-color: #e8f5e9;
+            border-left: 5px solid #4caf50;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 5px 5px 0;
+        }
+        code {
+            background-color: #f0f0f0;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+        .code-block {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            font-family: 'Courier New', monospace;
+            margin: 20px 0;
+        }
+        .directory-structure {
+            font-family: 'Courier New', monospace;
+            margin-left: 20px;
+        }
+        .emoji {
+            font-size: 1.2em;
+            margin-right: 5px;
+        }
+        .highlight {
+            background-color: #ffffcc;
+            padding: 2px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔍 Linux命令行路径详解</h1>
+        
+        <h2>🤔 为什么直接输入 <code>start.sh</code> 不会执行？</h2>
+        <p>
+            当你在命令行中直接输入 <code>start.sh</code> 而不是 <code>./start.sh</code> 时，系统不会执行当前目录下的脚本。这是因为：
+        </p>
+        <div class="example">
+            <p><span class="emoji">🔑</span> <strong>关键原因</strong>：命令行只会在 <code>PATH</code> 环境变量定义的目录中查找可执行文件，而当前目录（<code>.</code>）通常不在 <code>PATH</code> 中。</p>
+        </div>
+
+        <h2>🛠️ 命令行工具的查找机制</h2>
+        <p>
+            想象一下，命令行工具就像是分布在不同地方的工具箱：
+        </p>
+        <div class="tip">
+            <p><span class="emoji">🧰</span> <strong>全局工具</strong>：像 <code>ls</code>、<code>cat</code>、<code>grep</code> 这样的命令是"全局工具"，存放在系统的特定目录中（如 <code>/bin</code>、<code>/usr/bin</code>）。</p>
+            <p><span class="emoji">🔍</span> <strong>查找过程</strong>：当你输入命令时，系统会在 <code>PATH</code> 环境变量列出的所有目录中按顺序查找这个命令。</p>
+        </div>
+
+        <div class="code-block">
+            # 查看你的PATH环境变量
+            echo $PATH
+            
+            # 输出可能类似于：
+            /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+        </div>
+
+        <h2>📝 如何正确执行本地脚本</h2>
+        <p>
+            要执行当前目录下的脚本，你需要明确指定脚本的位置：
+        </p>
+        <div class="code-block">
+            # 正确方式：使用相对路径
+            ./start.sh
+            
+            # 或使用绝对路径
+            /home/user/projects/start.sh
+        </div>
+
+        <div class="warning">
+            <p><span class="emoji">⚠️</span> <strong>注意</strong>：脚本必须有执行权限才能运行。如果没有，需要先添加执行权限：</p>
+            <code>chmod +x start.sh</code>
+        </div>
+
+        <h2>🏠 路径的比喻解释</h2>
+        <p>
+            让我们用一个生活中的比喻来理解这个概念：
+        </p>
+        <div class="example">
+            <p><span class="emoji">🏙️</span> <strong>全局工具</strong> 就像城市里的公共设施（医院、学校、超市），无论你在城市的哪个位置，只要说出名字，大家都知道在哪里。</p>
+            <p><span class="emoji">🏡</span> <strong>本地工具</strong> 就像你家里自制的工具，如果你只说"我要用铲子"，别人不知道你指的是哪里的铲子。你需要明确说"我要用<span class="highlight">我家厨房里的</span>铲子"。</p>
+        </div>
+
+        <h3>🗺️ 目录结构比喻</h3>
+        <div class="directory-structure">
+            城市（系统）<br>
+            ├── 公共区域（/usr/bin、/bin 等，在PATH中）<br>
+            │   ├── 🔨 锤子 (hammer)<br>
+            │   ├── 🪚 锯子 (saw)<br>
+            │   └── 🔧 扳手 (wrench)<br>
+            │<br>
+            └── 你的家（当前目录，不在PATH中）<br>
+                ├── 🧹 自制扫帚 (broom.sh)<br>
+                └── 🪣 自制水桶 (bucket.sh)<br>
+        </div>
+
+        <p>
+            当你说"使用锤子"（输入<code>hammer</code>）时，系统知道去公共区域找。<br>
+            但当你说"使用自制扫帚"（输入<code>broom.sh</code>）时，系统不会自动去你家里找，你需要明确指出"使用我家里的自制扫帚"（<code>./broom.sh</code>）。
+        </p>
+
+        <h2>🌐 访问不同位置的脚本</h2>
+        <p>
+            如果你需要访问其他目录中的脚本，可以使用相对路径或绝对路径：
+        </p>
+        <div class="example">
+            <p><span class="emoji">📂</span> <strong>目录结构</strong>：</p>
+            <div class="directory-structure">
+                /home/user/<br>
+                ├── 我的项目/<br>
+                │   ├── 工具/<br>
+                │   │   └── 实用脚本.sh<br>
+                │   └── 当前目录/ (你现在在这里)<br>
+                │<br>
+                └── 朋友的项目/<br>
+                    └── 共享脚本.sh<br>
+            </div>
+
+            <p><span class="emoji">🔄</span> <strong>访问方式</strong>：</p>
+            <ul>
+                <li>访问"实用脚本.sh"：<code>../工具/实用脚本.sh</code></li>
+                <li>访问"共享脚本.sh"：<code>../../朋友的项目/共享脚本.sh</code></li>
+            </ul>
+        </div>
+
+        <h2>💡 实用技巧</h2>
+        <div class="tip">
+            <p><span class="emoji">✨</span> <strong>添加当前目录到PATH</strong>：如果你真的想直接输入脚本名执行，可以临时将当前目录添加到PATH（不推荐作为永久设置，有安全风险）：</p>
+            <code>export PATH=$PATH:.</code>
+        </div>
+
+        <div class="tip">
+            <p><span class="emoji">📌</span> <strong>创建个人bin目录</strong>：更好的做法是创建一个个人的bin目录，并将其添加到PATH：</p>
+            <div class="code-block">
+                # 创建个人bin目录
+                mkdir -p ~/bin
+                
+                # 将脚本复制或链接到bin目录
+                ln -s /path/to/your/script.sh ~/bin/script
+                
+                # 添加到PATH（在~/.bashrc或~/.zshrc中）
+                export PATH=$PATH:~/bin
+            </div>
+        </div>
+
+        <h2>🔒 安全性考虑</h2>
+        <div class="warning">
+            <p><span class="emoji">🛡️</span> <strong>为什么当前目录不在默认PATH中？</strong></p>
+            <p>这是出于安全考虑。如果当前目录在PATH中，攻击者可能会在公共目录放置与常用命令同名的恶意脚本（如伪装成"ls"的脚本），当用户在该目录执行命令时，会运行恶意版本而非系统命令。</p>
+        </div>
+
+        <h2>📚 总结</h2>
+        <p>
+            <span class="emoji">🎯</span> 在Linux/Unix系统中，执行当前目录下的脚本需要明确指定路径：
+        </p>
+        <ul>
+            <li>使用 <code>./脚本名</code> 执行当前目录下的脚本</li>
+            <li>使用相对路径或绝对路径访问其他位置的脚本</li>
+            <li>确保脚本有执行权限（<code>chmod +x 脚本名</code>）</li>
+            <li>理解PATH环境变量的工作原理，它决定了系统在哪些目录中查找命令</li>
+        </ul>
+        
+        <div class="tip">
+            <p><span class="emoji">💪</span> <strong>掌握这个概念</strong>将帮助你更好地理解Linux/Unix系统的命令执行机制，提高你的命令行操作效率！</p>
+        </div>
+    </div>
+</body>
+</html>
